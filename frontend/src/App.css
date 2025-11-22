@@ -1,0 +1,171 @@
+body {
+  background: linear-gradient(135deg, #0f0f0f 0%, #1a1a1a 50%, #121212 100%);
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  min-height: 100vh;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+}
+
+h1, h2, h3 {
+  font-weight: 700;
+}
+
+.card {
+  background-color: #181818 !important;
+  border: none !important;
+}
+
+.form-control {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  color: #fff;
+  border-radius: 12px;
+}
+
+.form-control::placeholder {
+  color: #bbb;
+}
+
+
+.form-control:focus {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 255, 200, 0.25);
+}
+
+.btn-modern:hover {
+  background: linear-gradient(135deg, #00c6ff, #0072ff);
+  transform: translateY(-2px);
+}
+
+.btn-success {
+  background-color: #1db954 !important;
+  border: none !important;
+  transition: 0.3s ease;
+}
+
+
+.btn-success:hover {
+  background-color: #1ed760 !important;
+}
+
+.list-group-item {
+  background: rgba(255, 255, 255, 0.05);
+  border: none;
+  border-radius: 12px;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.list-group-item:hover {
+  background: rgba(255, 255, 255, 0.15);
+  transform: scale(1.02);
+}
+
+a {
+  color: #00c6ff;
+  text-decoration: none;
+}
+
+
+a:hover {
+  text-decoration: underline;
+  color: #76e2f4;
+}
+
+.navbar {
+  background: rgba(0, 0, 0, 0.7) !important;
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.navbar-brand {
+  font-weight: 700;
+  color: #00e0ff !important;
+}
+
+.nav-link {
+  color: #ddd !important;
+  margin-left: 1rem;
+  transition: color 0.2s ease;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 255, 200, 0.3);
+  border-radius: 10px;
+}
+
+.nav-link:hover {
+  color: #00e0ff !important;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.form-container {
+  max-width: 500px;
+  margin: 50px auto;
+  background: rgba(0,0,0,0.8);
+  color: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(255, 255, 255,0.1);
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+.error {
+  color: #ff6b6b;
+  font-size:  14px;
+}
+
+.btn-modern {
+  background: linear-gradient(90deg, #6a11cb, #2575fc);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: bold;
+}
