@@ -1,18 +1,14 @@
-# React + Vite
+# 🎵 Canciones con Login y Registro (Fullstack)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es un **sistema completo Fullstack** que incluye tanto **frontend en React** como **backend en Node.js/Express**, diseñado para manejar autenticación de usuarios mediante **JWT** y rutas protegidas.
 
-Currently, two official plugins are available:
+## 🚀 Funcionalidades principales
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Registro de usuarios**: Formulario en React que permite crear cuentas y obtener un token JWT al registrarse.
+- **Login de usuarios**: Formulario para iniciar sesión y recibir un token JWT para acceder a rutas protegidas.
+- **Rutas protegidas**: Implementadas con React Router en el frontend y verificación de JWT en el backend.
+- **Gestión de sesión**: Almacenamiento seguro del token JWT en `localStorage` o cookies y control de expiración.
+- **Interacción segura con el backend**: Todas las peticiones a rutas protegidas incluyen el token en los encabezados o cookies (`token_usuario`).
+- **Redirección automática**: Si el token expira o no es válido, el usuario es enviado al login.
 
-## React Compiler
-
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
-
-Note: This will impact Vite dev & build performances.
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+> ⚠️ Este proyecto **requiere que ambos, frontend y backend, estén funcionando** para que la aplicación opere correctamente.
